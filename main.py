@@ -583,7 +583,7 @@ async def api_script(request: web.Request) -> web.StreamResponse:
 
     if storage_type == "url":
         req_headers = {}
-   э
+
 def is_admin_member(member: discord.Member) -> bool:
     if member.guild_permissions.administrator:
         return True
