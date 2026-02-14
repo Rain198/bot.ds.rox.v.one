@@ -569,4 +569,4 @@ async def api_script(request: web.Request) -> web.StreamResponse:
     headers = {"Content-Disposition": f'attachment; filename="{filename}"'}
 
     if storage_type == "local":
-        return web.FileResponse(p
+        return web.FileResponse(p)
